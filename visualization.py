@@ -7,6 +7,7 @@ import numpy as np
 def pkl_visualization():
     visualization_item = list()
     
+    # read pcd
     pcd_path = "000000.pcd" # TODO change path
     pcd = o3d.io.read_point_cloud(pcd_path)
     visualization_item.append(pcd)

@@ -40,7 +40,7 @@ python mini_kitti_publisher.py --dir ./data/KITTI
 ```
 
 ## Object detection
-We used [VoxelNeXt](https://github.com/dvlab-research/VoxelNeXt) as an object detection method in our paper. For environment setting, we followed documents on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
+We used [VoxelNeXt](https://github.com/dvlab-research/VoxelNeXt) as an object detection method in our paper. For the environment setting, we followed documents on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 We visualized bounding boxes to test the inference results. To use visualization code, we prepared corresponding pcd and pkl file.
 ```bash
